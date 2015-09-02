@@ -61,5 +61,5 @@ echo "document.write('$data')" >> $js_file_name
 rm $file_name
 
 repository_name=$(cat repository_name)
-echo "If you push your code to Github, then you can add next line to your page."
-echo "<script src=\"https://rawgit.com/$repository_name/master/$js_file_name\"></script>"
+echo "Embed URL: <script src=\"https://rawgit.com/$repository_name/master/$js_file_name\"></script>"
+echo "!!! push到Github后有效"
