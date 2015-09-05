@@ -24,4 +24,4 @@ Q: 为什么要用RawGit的服务?
 A: [戳这里](http://stackoverflow.com/questions/17341122/link-and-execute-external-javascript-file-hosted-on-github)
 
 ## 效果图太大所以放到最后
-![image](https://github.com/SaulLawliet/gist-it/blob/master/show.png)
+![image](https://github.com/SaulLawliet/gist-it/blob/master/screencast.png)
