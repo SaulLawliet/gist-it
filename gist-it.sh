@@ -57,9 +57,8 @@ data=$(sed 's/"/\\"/g; s/\//\\\//g' $file_name |tr -d '\n')
 js_file_name="${file_name}.js"
 echo "document.write('<link rel=\"stylesheet\" href=\"https://assets-cdn.github.com/assets/gist/embed-3313cb70789df61d3bb75cd878325a1266ccab50b6aac9b80f1691ae0694a216.css\">')" > $js_file_name
 echo "document.write('$data')" >> $js_file_name
-
 rm $file_name
 
 repository_name=$(cat repository_name)
-echo "Embed URL: <script src=\"https://rawgit.com/$repository_name/master/$js_file_name\"></script>"
+echo "Embed URL: <script src=\"https://rawgit.com/${repository_name}/master/${js_file_name}\"></script>"
 echo "!!! push到Github后有效"
