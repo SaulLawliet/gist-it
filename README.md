@@ -1,5 +1,7 @@
 # gist-it
-从Github Repository生成embed文件, 像gist一样, 可以嵌套到其他页面中. 效果如下:
+从Github Repository生成embed文件, 像gist一样, 可以嵌套到其他页面中.  
+如图:
+![image](https://github.com/SaulLawliet/gist-it/blob/master/screencast.png)
 
 ## Usage
 - `fork`本项目, 然后删除`data`目录里的所有文件, 并修改`repository_name`文件的内容替换成你的信息  
@@ -22,6 +24,3 @@ Embed URL: <script src="https://rawgit.com/SaulLawliet/gist-it/master/data/SaulL
 ## Q&A
 Q: 为什么要用RawGit的服务?  
 A: [戳这里](http://stackoverflow.com/questions/17341122/link-and-execute-external-javascript-file-hosted-on-github)
-
-## 效果图太大所以放到最后
-![image](https://github.com/SaulLawliet/gist-it/blob/master/screencast.png)
